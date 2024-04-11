@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --box-shadow: 2px 2px 8px #888888;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+
+header,
+section,
+footer {
+  padding: 48px;
+  max-width: 1028px;
+  margin: auto;
+}
+
+.img-display,
+header > div,
+.card {
+  box-shadow: 2px 2px 8px #888888;
+}
+
+header {
+  background-color: seashell;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+header > div {
+  margin: auto;
+  padding: 16px;
+}
+
+.img-display {
+  width: 400px;
+}
+
+.icon-about {
+  width: 24px;
+}
+
+.icon-about-container {
+  float: right;
+}
+
+.my-work-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  width: 300px;
+}
+
+.description {
+  padding: 16px;
+}
+
+.screenshot {
+  width: 300px;
+  height: 200px;
+  background-color: green;
+}
+
+.icon-project-container {
+  float: right;
+}
+
+.icon-project {
+  width: 16px;
+}
+
+footer {
+  background-color: burlywood;
+  color: white;
+}
+
+.icon-contact {
+  width: 32px;
+}
